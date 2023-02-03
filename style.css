@@ -1,0 +1,28 @@
+*, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+.container{
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container .orange{
+  width: 350px;
+  height: 400px;
+  background-color: hsl(31, 77%, 52%);
+}
+.container .cyan{
+  width: 350px;
+  height: 400px;
+  background-color: hsl(184, 100%, 22%);
+}
+.container .dark{
+  width: 350px;
+  height: 400px;
+  background-color: hsl(179, 100%, 13%);
+}
